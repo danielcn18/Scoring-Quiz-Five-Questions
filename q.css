@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(159, 182, 194);
+}
+body{
+    padding-bottom: 6vh; 
+}
+#display{
+    height: auto;
+    width: 16%;
+    position: absolute;
+    margin: 20vh 5% 0 12%;
+    background-color: white;
+    font-size: 1.8vw;
+    text-align: center;
+    font-weight: 520;
+    line-height: 1.7;
+}
+.heading{
+    height: 7vh;
+    width: 100%;
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 1.7vw;
+    background-color: rgb(87, 127, 160);
+    color: black;
+    font-weight: 600;
+}
+.container{
+    height: auto;
+    width: 28%;
+    margin: 6vh auto 0 auto;
+}
+.box{
+    height: auto;
+    width: 100%;
+    margin-bottom: 2vh;
+    padding: 2vh 0;
+    font-size: 1.6vw;
+    color: black;
+}
+.box>p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.question{
+    font-size: 1.6vw;
+    text-align: center;
+    font-weight: 550;
+}
+.options{
+    font-size: 1.2vw;
+}
+.checkb{
+    margin: 0 0 0 4%;
+}
+.container>button{
+    text-align: center;
+    font-size: 1.3vw;
+    display: flex;
+    width: auto;
+    margin: 1vh auto 0 auto;
+    background-color: white;
+    font-weight: 550;
+    color: black;
+    padding: 6px;
+    border: 0px solid transparent;
+}
+.container>button:hover{
+    background-color: black;
+    color: white;
+}
